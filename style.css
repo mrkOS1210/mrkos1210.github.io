@@ -1,0 +1,38 @@
+
+body {
+  background-color: #264653
+}
+
+#IconFramed {
+  margin-left: 35vw;
+  width:30vw;
+}
+
+@keyframes flashing {
+  0% {opacity: 100%}
+  49% {opacity: 100%}
+  50% {opacity: 0%}
+  99% {opacity: 0%}
+}
+
+h1 {
+  font-family: Roboto;
+  font-size: 5vw;
+  text-align: center;
+  line-height: 0.5vw;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: Roboto;
+  font-size: 2vw;
+  text-align: center;
+  line-height: 0.5vw;
+  color: #FFFFFF;
+}
+
+#cursor {
+  animation-name: flashing;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
